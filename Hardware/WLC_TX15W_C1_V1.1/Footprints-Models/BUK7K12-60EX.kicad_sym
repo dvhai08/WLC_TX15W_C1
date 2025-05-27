@@ -1,0 +1,218 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BUK7K12-60EX" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "Q" (id 0) (at -11.43 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "BUK7K12-60EX" (id 1) (at -11.43 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BUK7K12-60EX:TRANS_BUK7K12-60EX" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "NEXPERIA" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BUK7K12-60EX_1_0"
+      (polyline
+        (pts (xy -1.778 0.762) (xy -1.778 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 0.0) (xy -1.778 -0.762)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 3.175) (xy -1.778 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 2.54) (xy -1.778 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 0.0) (xy 0.0 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.0 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -1.905) (xy -1.778 -3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -2.54) (xy -1.778 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 2.54) (xy 1.27 0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 0.508) (xy 1.27 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 2.54) (xy 1.27 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 0.508) (xy 1.27 0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 0.508) (xy 0.762 0.508)) (stroke (width 0.1524))
+      )
+      (circle (center 0.0 -2.54) (radius 0.3592)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (circle (center 0.0 2.54) (radius 0.3592)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 0.508)
+          (xy 0.762 -0.254)
+          (xy 1.778 -0.254)
+          (xy 1.27 0.508)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.524 0.0)
+          (xy -0.508 0.762)
+          (xy -0.508 -0.762)
+          (xy -1.524 0.0)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (pin passive line (at 0.0 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "BUK7K12-60EX_2_0"
+      (polyline
+        (pts (xy -1.778 0.762) (xy -1.778 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 0.0) (xy -1.778 -0.762)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 3.175) (xy -1.778 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 2.54) (xy -1.778 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 0.0) (xy 0.0 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.0 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -1.905) (xy -1.778 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 -2.54) (xy -1.778 -3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy -1.778 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 2.54) (xy 1.27 0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 0.508) (xy 1.27 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy 1.27 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 2.54) (xy 1.27 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.778 0.508) (xy 1.27 0.508)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.27 0.508) (xy 0.762 0.508)) (stroke (width 0.1524))
+      )
+      (circle (center 0.0 -2.54) (radius 0.3592)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (circle (center 0.0 2.54) (radius 0.3592)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.27 0.508)
+          (xy 0.762 -0.254)
+          (xy 1.778 -0.254)
+          (xy 1.27 0.508)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.524 0.0)
+          (xy -0.508 0.762)
+          (xy -0.508 -0.762)
+          (xy -1.524 0.0)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (pin passive line (at 0.0 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
