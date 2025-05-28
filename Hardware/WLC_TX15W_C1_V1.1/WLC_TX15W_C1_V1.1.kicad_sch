@@ -13697,6 +13697,18 @@
 		)
 		(uuid "fee96bce-d16c-405e-bc6a-5e76a078eb98")
 	)
+	(rectangle
+		(start 310.388 158.75)
+		(end 392.176 215.138)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38a20a0c-f02d-4c10-b660-6cf9c7b3509f)
+	)
 	(text "BUCK CONVERTER"
 		(exclude_from_sim no)
 		(at 176.022 20.066 0)
@@ -13780,6 +13792,18 @@
 			)
 		)
 		(uuid "caf51a4e-cb33-4a20-9683-960a0ad9d507")
+	)
+	(text "Q_ESTIMATE"
+		(exclude_from_sim no)
+		(at 367.538 166.878 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d721f347-bd04-45e8-8fad-d5fe9a3f8fbd")
 	)
 	(text "PROGRAMMING CONNECTOR"
 		(exclude_from_sim no)
