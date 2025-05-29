@@ -8856,12 +8856,6 @@
 		(uuid "9f3aadae-b75d-444c-b388-3c6736b709f9")
 	)
 	(junction
-		(at 218.44 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a013483f-ef98-4d99-9b1c-c2557b21e9b5")
-	)
-	(junction
 		(at 68.58 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8914,12 +8908,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1571a93-45a8-4bfe-9204-9f42368d9114")
-	)
-	(junction
-		(at 149.86 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4493cb9-af94-46ce-b7de-b77c43730254")
 	)
 	(junction
 		(at 237.49 24.13)
@@ -9651,16 +9639,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 151.13 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "173d4a0a-0e24-4292-84be-3b5e077a44c0")
-	)
-	(wire
-		(pts
 			(xy 60.96 81.28) (xy 60.96 83.82)
 		)
 		(stroke
@@ -9921,16 +9899,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 149.86 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2393b17a-6978-4c39-94c1-7e4891f6a228")
-	)
-	(wire
-		(pts
 			(xy 71.12 177.8) (xy 68.58 177.8)
 		)
 		(stroke
@@ -10048,16 +10016,6 @@
 			(type default)
 		)
 		(uuid "2b4180d6-2deb-44ce-bfa5-6f906ab532c5")
-	)
-	(wire
-		(pts
-			(xy 219.71 158.75) (xy 218.44 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b91f6d2-8294-4666-ba41-807a8ee72046")
 	)
 	(wire
 		(pts
@@ -12121,16 +12079,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 154.94) (xy 218.44 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd7cbcb-5ede-4607-8954-8a42ff3b2e91")
-	)
-	(wire
-		(pts
 			(xy 255.27 74.93) (xy 255.27 68.58)
 		)
 		(stroke
@@ -13051,16 +12999,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 158.75) (xy 218.44 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac2e32b-c2e8-4dbe-a85b-c10cd5be35d4")
-	)
-	(wire
-		(pts
 			(xy 60.96 78.74) (xy 60.96 81.28)
 		)
 		(stroke
@@ -13381,16 +13319,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 93.98) (xy 149.86 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d87a708e-7963-4fd5-bc5b-ba37b59f208b")
-	)
-	(wire
-		(pts
 			(xy 106.68 143.51) (xy 88.9 143.51)
 		)
 		(stroke
@@ -13598,16 +13526,6 @@
 			(type default)
 		)
 		(uuid "e268e745-dcb1-4a0a-8545-9e9639366bc0")
-	)
-	(wire
-		(pts
-			(xy 223.52 154.94) (xy 218.44 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2963f93-b59e-4f9d-b091-3084c3fafc31")
 	)
 	(wire
 		(pts
@@ -15341,28 +15259,6 @@
 			)
 		)
 	)
-	(global_label "P3.3"
-		(shape input)
-		(at 149.86 93.98 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59cb91b2-44c6-49c6-a2bc-68990a1bcaf1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 86.701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IOUT_CSP_0"
 		(shape input)
 		(at 60.96 161.29 180)
@@ -15904,28 +15800,6 @@
 		(uuid "b037b4ae-5dec-47d1-a350-c91ea21ac338")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.2023 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ASK_TST"
-		(shape input)
-		(at 219.71 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2a0169c-3f57-4415-a75b-4ad3301e88ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.3756 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16665,7 +16539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 270.51 129.54 0)
 			(effects
 				(font
@@ -17094,7 +16968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 261.366 179.324 90)
 			(effects
 				(font
@@ -17161,7 +17035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.95 175.26 0)
 			(effects
 				(font
@@ -17494,7 +17368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 238.506 172.466 90)
 			(effects
 				(font
@@ -17561,7 +17435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.516 178.816 90)
 			(effects
 				(font
@@ -18391,7 +18265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 287.274 258.826 90)
 			(effects
 				(font
@@ -19527,7 +19401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 34.29 167.64 0)
 			(effects
 				(font
@@ -20157,7 +20031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 326.39 67.31 0)
 			(effects
 				(font
@@ -21758,7 +21632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 306.324 108.966 90)
 			(effects
 				(font
@@ -22564,7 +22438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 306.324 170.434 90)
 			(effects
 				(font
@@ -23036,7 +22910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 292.1 68.58 0)
 			(effects
 				(font
@@ -23549,73 +23423,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 151.13 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72cc694a-9f2f-4d84-8fee-dc8401aaba5a")
-		(property "Reference" "TP1"
-			(at 156.21 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P3.3"
-			(at 156.21 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 151.13 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 151.13 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5208a0d5-ee2b-40a4-b00c-a49a625521f9")
-		)
-		(instances
-			(project ""
-				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 173.99 55.88 90)
 		(unit 1)
@@ -23641,7 +23448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRP1050WA"
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN8040_8x8.15mm"
 			(at 173.99 55.88 0)
 			(effects
 				(font
@@ -24133,7 +23940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.98 172.72 0)
 			(effects
 				(font
@@ -24200,7 +24007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 285.75 100.33 0)
 			(effects
 				(font
@@ -25012,7 +24819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.76 165.1 0)
 			(effects
 				(font
@@ -25282,7 +25089,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 42.164 251.206 90)
 			(effects
 				(font
@@ -25419,7 +25226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.516 162.306 90)
 			(effects
 				(font
@@ -27131,7 +26938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 271.526 118.364 90)
 			(effects
 				(font
@@ -27201,7 +27008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 275.844 258.826 90)
 			(effects
 				(font
@@ -27333,7 +27140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.51 264.16 0)
 			(effects
 				(font
@@ -28173,7 +27980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 278.384 178.054 90)
 			(effects
 				(font
@@ -28240,7 +28047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 238.506 162.306 90)
 			(effects
 				(font
@@ -28409,73 +28216,6 @@
 			(project "WLC_TX15W_C1_V1.1"
 				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
 					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 223.52 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daf200aa-d33c-4deb-b657-d6a55d32a11d")
-		(property "Reference" "TP2"
-			(at 228.6 153.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ASK_TST"
-			(at 228.6 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 223.52 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 223.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34da289a-19fe-42dd-bbfe-a9930787aab3")
-		)
-		(instances
-			(project "WLC_TX15W_C1_V1.1"
-				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -28772,7 +28512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 280.67 104.14 0)
 			(effects
 				(font
@@ -28910,7 +28650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 30.734 251.206 90)
 			(effects
 				(font
