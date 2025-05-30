@@ -2243,23 +2243,21 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
+		(symbol "Connector:Barrel_Jack_Switch"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "J"
+				(at 0 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2267,7 +2265,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
+				(at 1.27 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2276,7 +2274,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 5.08 0 0)
+				(at 1.27 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2284,7 +2282,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "test point"
+			(property "Description" "DC Barrel Jack with an internal switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2293,7 +2291,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "ki_keywords" "DC power barrel jack connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2302,7 +2300,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_fp_filters" "BarrelJack*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2311,24 +2309,107 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+			(symbol "Barrel_Jack_Switch_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
-			(symbol "TestPoint_1_1"
+			(symbol "Barrel_Jack_Switch_1_1"
 				(pin passive line
-					(at 0 0 90)
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "1"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2336,6 +2417,42 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8676,12 +8793,6 @@
 		(uuid "65f0ffaa-974e-4de5-bd4e-73a4a4e75547")
 	)
 	(junction
-		(at 342.9 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6838a6a2-6d2c-4f53-ad7a-8782840db952")
-	)
-	(junction
 		(at 283.21 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8722,12 +8833,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ace624-bc76-4d35-8429-30fa4deedf21")
-	)
-	(junction
-		(at 320.04 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7918ff26-e8f3-431c-8194-421142fbfecf")
 	)
 	(junction
 		(at 203.2 168.91)
@@ -8932,12 +9037,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd7deb8f-b13e-4de8-84cd-91f73b643f08")
-	)
-	(junction
-		(at 331.47 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0372e61-021f-47d9-85b5-336c9b1096cf")
 	)
 	(junction
 		(at 41.91 179.07)
@@ -9749,16 +9848,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 232.41) (xy 331.47 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a86ae03-8576-4feb-b654-8660c8441c53")
-	)
-	(wire
-		(pts
 			(xy 157.48 43.18) (xy 157.48 34.29)
 		)
 		(stroke
@@ -10366,16 +10455,6 @@
 			(type default)
 		)
 		(uuid "3d15f1a3-7d55-4a29-b49c-288d0601422e")
-	)
-	(wire
-		(pts
-			(xy 331.47 232.41) (xy 342.9 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d909248-5654-4570-b0a2-f63ae22081f1")
 	)
 	(wire
 		(pts
@@ -11666,16 +11745,6 @@
 			(type default)
 		)
 		(uuid "87525c15-d923-4d44-ae04-27c82215321a")
-	)
-	(wire
-		(pts
-			(xy 342.9 232.41) (xy 353.06 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "883ef6a9-1bb4-40b7-a599-e4d5b94abaf3")
 	)
 	(wire
 		(pts
@@ -13289,6 +13358,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 21.59) (xy 31.75 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77f7e11-0a2c-4fa4-9a07-a5d72e808bc0")
+	)
+	(wire
+		(pts
 			(xy 300.99 81.28) (xy 298.45 81.28)
 		)
 		(stroke
@@ -13909,16 +13988,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 44.45) (xy 29.21 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f48e8b77-a058-4f04-aba3-fb4abb568b88")
-	)
-	(wire
-		(pts
 			(xy 200.66 186.69) (xy 190.5 186.69)
 		)
 		(stroke
@@ -14046,16 +14115,6 @@
 			(type default)
 		)
 		(uuid "fb4920a1-2a09-4e22-a456-0261da53362e")
-	)
-	(wire
-		(pts
-			(xy 29.21 27.94) (xy 29.21 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbc6344c-8ab5-43b5-9345-f09acc6fdd1d")
 	)
 	(wire
 		(pts
@@ -15721,6 +15780,28 @@
 			)
 		)
 	)
+	(global_label "USB-IN"
+		(shape input)
+		(at 31.75 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7fe088d-24f6-4986-8269-32d2ae2e3449")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.0529 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OPTIGA_I2C_SCL"
 		(shape input)
 		(at 43.18 261.62 270)
@@ -16245,6 +16326,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB-GND"
+		(shape input)
+		(at 31.75 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef48b834-24a7-4ad6-8ac9-1f64005482a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.9881 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -19444,73 +19547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 342.9 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "227f4ae3-5d7b-469d-9f53-f7dada505798")
-		(property "Reference" "TP7"
-			(at 345.44 227.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 345.44 230.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
-			(at 347.98 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 342.9 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "923ed74d-1ad0-4fb8-ad06-cf3bca99d857")
-		)
-		(instances
-			(project "WLC_TX15W_C1_V1.1"
-				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 344.17 149.86 0)
 		(unit 1)
@@ -20139,70 +20175,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 29.21 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "321f6cd8-a5a4-45e2-8038-67d437fa07cd")
-		(property "Reference" "TP4"
-			(at 22.606 36.576 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VIN-"
-			(at 22.606 39.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
-			(at 29.21 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 29.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17e6c58d-6e25-48d3-b2f3-f47f77e2926c")
-		)
-		(instances
-			(project "WLC_TX15W_C1_V1.1"
-				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "BSZ0910LS_2")
 		(lib_id "haidv_library:BSZ0910LS")
 		(at 154.94 48.26 0)
@@ -20717,71 +20689,6 @@
 				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
 					(reference "U2")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 29.21 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d7a056d-8ffa-4f7f-b712-9b51c3e0f18d")
-		(property "Reference" "TP3"
-			(at 25.908 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VIN+"
-			(at 25.908 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
-			(at 29.21 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 29.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c0620f5-e210-476d-954a-0030215b996e")
-		)
-		(instances
-			(project ""
-				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
-					(reference "TP3")
-					(unit 1)
 				)
 			)
 		)
@@ -22819,73 +22726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 353.06 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b6664cf-ab75-47fa-8399-89cd526fb9e5")
-		(property "Reference" "TP8"
-			(at 355.6 227.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 355.6 230.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
-			(at 358.14 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 358.14 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 353.06 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf9df459-03ee-47c7-854a-b34028483179")
-		)
-		(instances
-			(project "WLC_TX15W_C1_V1.1"
-				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 292.1 68.58 180)
 		(unit 1)
@@ -24596,6 +24436,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 24.13 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cab70a5-f943-42e6-976e-7c4951c131ac")
+		(property "Reference" "J4"
+			(at 24.13 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_Switch"
+			(at 24.13 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
+			(at 25.4 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 24.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e5c9e1-956f-4ea0-9583-5770c6bcd615")
+		)
+		(pin "2"
+			(uuid "1e1b84b2-aeff-4785-8e26-017eeb7c93f9")
+		)
+		(pin "3"
+			(uuid "185dd0bd-06e7-4c42-9e9f-d6a1bb95e6e1")
+		)
+		(instances
+			(project ""
+				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 275.59 0)
 		(unit 1)
@@ -25962,73 +25873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 320.04 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8fc58d1-fecd-4346-ace1-36255c437c34")
-		(property "Reference" "TP5"
-			(at 322.58 227.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 322.58 230.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
-			(at 325.12 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 325.12 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 320.04 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d54bd844-a240-4718-a1d6-ab36435dda6e")
-		)
-		(instances
-			(project "WLC_TX15W_C1_V1.1"
-				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 46.99 0)
 		(unit 1)
@@ -27045,71 +26889,6 @@
 			(project "WLC_TX15W_C1_V1.1"
 				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 320.04 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7b93a5a-19fc-44c4-9644-bd518078292d")
-		(property "Reference" "#PWR049"
-			(at 320.04 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 320.04 236.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d037ec36-1d6a-4b88-af50-1a2f5d943319")
-		)
-		(instances
-			(project "WLC_TX15W_C1_V1.1"
-				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -28149,73 +27928,6 @@
 			(project "WLC_TX15W_C1_V1.1"
 				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 331.47 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d82fa99e-2e23-4361-8b5d-a4b9bef58e6d")
-		(property "Reference" "TP6"
-			(at 334.01 227.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 334.01 230.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
-			(at 336.55 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 336.55 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 331.47 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0039d3d9-dcca-42c6-9280-c3b1b6439655")
-		)
-		(instances
-			(project "WLC_TX15W_C1_V1.1"
-				(path "/1a6f8426-cf7d-45fc-93c0-a08b30e070f8"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
